@@ -7,28 +7,32 @@
         html, body {margin: 0px; padding: 0px; font-family: "Helvetica Neue", "Helvetica", Arial; }
         body {background: #444 url(numbers.jpg) repeat;}
 
-        #all {width: 600px; padding:2em; margin:1em auto; background: #efefef; border-radius: 5px; border: 1px solid #DDD;
-            box-shadow: 0px 0px 20px #111;
+        #all {width: 600px; padding:2em; margin:1em auto; background: #efefef; border-radius: 10px; border: 1px solid #DDD;
+            box-shadow: 0px 0px 30px #111;
         }
         h1 {font-size: 2.5em; font-weight: 100; color:#444; margin-top:0;}
             h1 strong {color: cornflowerblue;}
 
-        .tag {font-weight: 300; font-size:1.4em;}
+        .tag {font-weight: 300; font-size:1.55em; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd; padding: 0.25em 0; }
+        .tag i {font-family: "Georgia"; font-weight: 100;}
         p {font-size:1.1em; font-weight: 200; }
 
-        h3 {border-bottom: 1px solid #eee; padding-bottom: 0.25em}
+        h3 {border-bottom: 1px solid #eee; padding-bottom: 0.1em; margin-bottom: 0;}
         ul {list-style: none; margin:0px; padding: 0px;}
-        ul li:before {content: '✓ '; color: #888;}
+        ul li:before {content: '✓ '; color: green;}
+
+        a {color: #444; text-decoration: none; font-weight: 600;}
+        a:hover {color: cornflowerblue; }
     </style>
 
     <body>
         <div id="all">
             <h1>Maria's <strong>Bookkeeping</strong></h1>
-            <div class="tag"><strong>Do you love bookkeeping as much as I do?</strong><br>No? Then let me do it for you.</div>
+            <div class="tag"><strong><i>Q:</i> Do you love bookkeeping as much as I do?</strong><br>No? Then let me do it for you.</div>
             <p>I am a qualified bookkeeper with over 4 years of experience in bookkeeping and accounting. I am looking to provide affordable bookkeeping services to small businesses in Ottawa.
             <p>I have extensive experience with Quickbooks (Cloud & Desktop), and Simply Accounting/Sage.
 
-            <h3>Services offered:</h3>
+            <h3>Services offered</h3>
             <ul>
                 <li>Payroll</li>
                 <li>HST filing</li>
@@ -39,7 +43,7 @@
             </ul>
 
             <h3>Contact</h3>
-            <i class="fa fa-phone"></i> (613) 366-6371
+            <i class="fa fa-phone"></i> <a href="tel:(613) 366-6371">(613) 366-6371</a>
             <br><i class="fa fa-envelope"></i> <a href="mailto:mnajera.bookkeeping@gmail.com">mnajera.bookkeeping@gmail.com</a>
         </div>
     </body>
